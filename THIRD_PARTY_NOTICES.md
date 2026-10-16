@@ -1,6 +1,6 @@
 # Third-party source and dependencies
 
-AudioMix has no selected project-wide license. Third-party code retains its own license and authorship.
+AudioMix's original project code and documentation are licensed under [CC BY-NC 4.0](LICENSE). Third-party code retains its own license and authorship; the root license does not replace or restrict those rights.
 
 ## libsbc
 

@@ -1,5 +1,7 @@
 # AudioMix
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 **Multiple devices. One audio output.**
 
 macOS lacks a built-in audio mixer for combining sound from multiple devices
@@ -185,8 +187,25 @@ cache. The probe starts no media session and changes no pairing or developer ima
 
 ## License and third-party components
 
-A project-wide license has not been selected yet. Third-party components retain
-their own licenses: the optional CoreDevice probe uses the MIT-licensed
+Copyright © 2026 Lucaslu2010, for original contributions.
+
+Except for third-party material and files with a separate license notice, the
+original project source code and documentation are licensed under
+[Creative Commons Attribution-NonCommercial 4.0 International
+(CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+See [LICENSE](LICENSE) for the full legal text.
+
+You may share and adapt the covered material for noncommercial purposes, provided
+you give appropriate credit, link to the license, and indicate changes. Commercial
+uses requiring permission under copyright are not granted by this license; seek
+separate permission from the relevant rights holder. The full license, including
+its exceptions and limitations, governs.
+
+Third-party code, assets, and dependencies retain their own licenses. This notice
+does not replace those licenses or restrict rights they independently grant.
+
+The optional CoreDevice probe uses the MIT-licensed
 [idevice](https://github.com/jkcoxson/idevice) library and Rust dependencies;
 the separate Bluetooth research app uses LGPL-2.1-or-later
 [libsbc](vendor/libsbc/UPSTREAM.md). The USB mixer does not link libsbc.
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the retained licenses.

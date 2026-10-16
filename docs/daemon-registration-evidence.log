@@ -1,0 +1,11 @@
+Transcribed from Console.app accessibility output during a controlled AudioMix
+stop/start on macOS 26.1 (25B78), 2026-10-15. These are selected entries, not an
+unmodified full daemon log export. Query: PSM. No privacy redaction was disabled.
+
+20:24:27.301460+0800 bluetoothd addServiceDataToLocalSDP: publishing PSM 25
+20:24:27.301501+0800 bluetoothd trying to publish psm:25 inMTU:1024 inMPS:1024 initialCredits:65535 creditAckDelta:30000 priority:0 packetBased:0 for session session "local.audiomix.bluetooth-test-classic-99490-1910"
+20:24:27.301939+0800 bluetoothd Registering L2CAP Channel with PSM 0x0019 for session "local.audiomix.bluetooth-test-classic-99490-1910"
+20:24:27.301984+0800 bluetoothd Failed to register L2CAP Channel with PSM 0x0019 for session "local.audiomix.bluetooth-test-classic-99490-1910" with result 402
+20:24:27.302011+0800 bluetoothd Classic Channel published callback PSM : 25 result : 1801
+20:24:27.302037+0800 bluetoothd Failed to register psm with result 0x709
+20:24:27.358639+0800 bluetoothd addServiceDataToLocalSDP: publishing PSM 31805

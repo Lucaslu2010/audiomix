@@ -1,0 +1,32 @@
+# Build products and fetched research dependencies
+build/
+research/
+**/target/
+**/.build/
+**/.swiftpm/
+
+# Local settings, credentials and environments
+.DS_Store
+.env*
+**/.env*
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+*.db
+*.sqlite
+*.sqlite3
+.venv/
+venv/
+__pycache__/
+*.pyc
+.claude/
+.codex/
+.idea/
+.vscode/
+**/xcuserdata/
+
+# Release assets are distributed through GitHub Releases
+*.dmg
+*.dmg.sha256

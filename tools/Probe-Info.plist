@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleIdentifier</key><string>local.audiomix.bluetooth-probe</string>
+  <key>CFBundleName</key><string>AudioMixProbe</string>
+  <key>CFBundleExecutable</key><string>AudioMixProbe</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleVersion</key><string>1</string>
+  <key>LSMinimumSystemVersion</key><string>14.0</string>
+  <key>NSBluetoothAlwaysUsageDescription</key>
+  <string>Test whether an iPad can open a Bluetooth audio transport to AudioMix on this Mac.</string>
+</dict></plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleIdentifier</key><string>local.audiomix.wired-test</string>
+  <key>CFBundleName</key><string>AudioMixWired</string>
+  <key>CFBundleDisplayName</key><string>AudioMix Wired Test</string>
+  <key>CFBundleExecutable</key><string>AudioMixWired</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleVersion</key><string>7</string>
+  <key>CFBundleShortVersionString</key><string>0.7</string>
+  <key>LSMinimumSystemVersion</key><string>14.0</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSMicrophoneUsageDescription</key><string>Capture audio from the USB input you select, such as a connected iPad or iPhone.</string>
+  <key>NSCameraUsageDescription</key><string>Access the connected iPad or iPhone USB screen/audio capture device. Audio-only mode does not create a video output.</string>
+  <key>NSAudioCaptureUsageDescription</key><string>Adjust Mac audio separately from your connected iPad or iPhone. Audio is processed locally for playback and is not recorded.</string>
+</dict></plist>
